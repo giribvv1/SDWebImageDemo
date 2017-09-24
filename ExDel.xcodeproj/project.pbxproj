@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00443C28A423CFBB9ABFAA8C /* Pods_ExDelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582C85C66DBBF32D67F36792 /* Pods_ExDelTests.framework */; };
+		216E189DA8974C1C38DE1B9F /* Pods_ExDelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DCEC936B2DE36FE78F0842 /* Pods_ExDelUITests.framework */; };
+		8736829E331630D372849789 /* Pods_ExDel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC421B0CBABE5F90C678230 /* Pods_ExDel.framework */; };
 		FAA8C0321F73F09400225E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8C0311F73F09400225E01 /* AppDelegate.swift */; };
 		FAA8C0341F73F09400225E01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8C0331F73F09400225E01 /* ViewController.swift */; };
 		FAA8C0371F73F09400225E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8C0351F73F09400225E01 /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CC421B0CBABE5F90C678230 /* Pods_ExDel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExDel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCC62D9EBBBA1D19DC8D7B7 /* Pods-ExDelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExDelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExDelTests/Pods-ExDelTests.release.xcconfig"; sourceTree = "<group>"; };
+		582C85C66DBBF32D67F36792 /* Pods_ExDelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExDelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		641F162F1CF099382EB3AFBE /* Pods-ExDel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExDel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExDel/Pods-ExDel.release.xcconfig"; sourceTree = "<group>"; };
+		726231F4D567DC049D6AB025 /* Pods-ExDelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExDelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExDelUITests/Pods-ExDelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9DCEC936B2DE36FE78F0842 /* Pods_ExDelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExDelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D216127A203E804B35C0E70E /* Pods-ExDelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExDelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExDelUITests/Pods-ExDelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31E3B091E1C8D74DCC27BED /* Pods-ExDel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExDel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExDel/Pods-ExDel.debug.xcconfig"; sourceTree = "<group>"; };
+		EC90EE645A35914503B8444A /* Pods-ExDelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExDelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExDelTests/Pods-ExDelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAA8C02E1F73F09400225E01 /* ExDel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExDel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA8C0311F73F09400225E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA8C0331F73F09400225E01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,7 @@
 		FAA8C04D1F73F09400225E01 /* ExDelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExDelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA8C0511F73F09400225E01 /* ExDelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExDelUITests.swift; sourceTree = "<group>"; };
 		FAA8C0531F73F09400225E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA8C05F1F73FA6900225E01 /* ExDel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExDel-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8736829E331630D372849789 /* Pods_ExDel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00443C28A423CFBB9ABFAA8C /* Pods_ExDelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216E189DA8974C1C38DE1B9F /* Pods_ExDelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFF52E4A5917421F27F3ED65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CC421B0CBABE5F90C678230 /* Pods_ExDel.framework */,
+				582C85C66DBBF32D67F36792 /* Pods_ExDelTests.framework */,
+				C9DCEC936B2DE36FE78F0842 /* Pods_ExDelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCC4D32E852355ED9DB0DD42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E31E3B091E1C8D74DCC27BED /* Pods-ExDel.debug.xcconfig */,
+				641F162F1CF099382EB3AFBE /* Pods-ExDel.release.xcconfig */,
+				EC90EE645A35914503B8444A /* Pods-ExDelTests.debug.xcconfig */,
+				2DCC62D9EBBBA1D19DC8D7B7 /* Pods-ExDelTests.release.xcconfig */,
+				D216127A203E804B35C0E70E /* Pods-ExDelUITests.debug.xcconfig */,
+				726231F4D567DC049D6AB025 /* Pods-ExDelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FAA8C0251F73F09400225E01 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				FAA8C0451F73F09400225E01 /* ExDelTests */,
 				FAA8C0501F73F09400225E01 /* ExDelUITests */,
 				FAA8C02F1F73F09400225E01 /* Products */,
+				DCC4D32E852355ED9DB0DD42 /* Pods */,
+				BFF52E4A5917421F27F3ED65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +144,7 @@
 				FAA8C0381F73F09400225E01 /* Assets.xcassets */,
 				FAA8C03A1F73F09400225E01 /* LaunchScreen.storyboard */,
 				FAA8C03D1F73F09400225E01 /* Info.plist */,
+				FAA8C05F1F73FA6900225E01 /* ExDel-Bridging-Header.h */,
 			);
 			path = ExDel;
 			sourceTree = "<group>";
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA8C0561F73F09400225E01 /* Build configuration list for PBXNativeTarget "ExDel" */;
 			buildPhases = (
+				AB034D3E8FAC60724D57F222 /* [CP] Check Pods Manifest.lock */,
 				FAA8C02A1F73F09400225E01 /* Sources */,
 				FAA8C02B1F73F09400225E01 /* Frameworks */,
 				FAA8C02C1F73F09400225E01 /* Resources */,
+				05BBBD19A962431E1C7D85CE /* [CP] Embed Pods Frameworks */,
+				8FE1AD56283994C28CD05E42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA8C0591F73F09400225E01 /* Build configuration list for PBXNativeTarget "ExDelTests" */;
 			buildPhases = (
+				1904508B1851A8B319B35C99 /* [CP] Check Pods Manifest.lock */,
 				FAA8C03E1F73F09400225E01 /* Sources */,
 				FAA8C03F1F73F09400225E01 /* Frameworks */,
 				FAA8C0401F73F09400225E01 /* Resources */,
+				D74C3768C4EE6E58EB8F45D4 /* [CP] Embed Pods Frameworks */,
+				8C06FB23FDA8DFD41A79F716 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA8C05C1F73F09400225E01 /* Build configuration list for PBXNativeTarget "ExDelUITests" */;
 			buildPhases = (
+				D80498EA55550C618BBF6EF4 /* [CP] Check Pods Manifest.lock */,
 				FAA8C0491F73F09400225E01 /* Sources */,
 				FAA8C04A1F73F09400225E01 /* Frameworks */,
 				FAA8C04B1F73F09400225E01 /* Resources */,
+				43673CE839BE3FAC5585F7EB /* [CP] Embed Pods Frameworks */,
+				DFA5CD2A434BFDA0FB769A1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +244,7 @@
 				TargetAttributes = {
 					FAA8C02D1F73F09400225E01 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					FAA8C0411F73F09400225E01 = {
@@ -253,6 +305,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05BBBD19A962431E1C7D85CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExDel/Pods-ExDel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExDel/Pods-ExDel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1904508B1851A8B319B35C99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExDelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43673CE839BE3FAC5585F7EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExDelUITests/Pods-ExDelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C06FB23FDA8DFD41A79F716 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExDelTests/Pods-ExDelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE1AD56283994C28CD05E42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExDel/Pods-ExDel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB034D3E8FAC60724D57F222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExDel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74C3768C4EE6E58EB8F45D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExDelTests/Pods-ExDelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80498EA55550C618BBF6EF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExDelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA5CD2A434BFDA0FB769A1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExDelUITests/Pods-ExDelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAA8C02A1F73F09400225E01 /* Sources */ = {
@@ -410,30 +612,38 @@
 		};
 		FAA8C0571F73F09400225E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31E3B091E1C8D74DCC27BED /* Pods-ExDel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ExDel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "iTech-India.ExDel";
+				PRODUCT_BUNDLE_IDENTIFIER = "iTech-India.SDWebImageDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExDel/ExDel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		FAA8C0581F73F09400225E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641F162F1CF099382EB3AFBE /* Pods-ExDel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ExDel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "iTech-India.ExDel";
+				PRODUCT_BUNDLE_IDENTIFIER = "iTech-India.SDWebImageDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ExDel/ExDel-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		FAA8C05A1F73F09400225E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC90EE645A35914503B8444A /* Pods-ExDelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +658,7 @@
 		};
 		FAA8C05B1F73F09400225E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCC62D9EBBBA1D19DC8D7B7 /* Pods-ExDelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +673,7 @@
 		};
 		FAA8C05D1F73F09400225E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D216127A203E804B35C0E70E /* Pods-ExDelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ExDelUITests/Info.plist;
@@ -475,6 +687,7 @@
 		};
 		FAA8C05E1F73F09400225E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726231F4D567DC049D6AB025 /* Pods-ExDelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ExDelUITests/Info.plist;
@@ -505,6 +718,7 @@
 				FAA8C0581F73F09400225E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA8C0591F73F09400225E01 /* Build configuration list for PBXNativeTarget "ExDelTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +727,7 @@
 				FAA8C05B1F73F09400225E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA8C05C1F73F09400225E01 /* Build configuration list for PBXNativeTarget "ExDelUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +736,7 @@
 				FAA8C05E1F73F09400225E01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
